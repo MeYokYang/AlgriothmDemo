@@ -1,5 +1,5 @@
-#ifndef _DEMO_H
-#define _DEMO_H
+#ifndef _STRING_MATCH_H
+#define _STRING_MATCH_H
 
 #include <string>
 #include <vector>

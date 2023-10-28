@@ -1,16 +1,16 @@
 cmake_minimum_required(VERSION 3.10)
-project(AlgorithmDemo VERSION 1.0)
+project(AlgorithmCPP VERSION 1.0)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(HEAD_PATH ${PROJECT_SOURCE_DIR}/include)
 set(LIB_PATH ${PROJECT_SOURCE_DIR}/lib)
-set(EXE_PATH ${PROJECT_SOURCE_DIR}/bin)
+set(EXE_PATH ${PROJECT_SOURCE_DIR}/../../bin/cpp)
 
 set(EXECUTABLE_OUTPUT_PATH ${EXE_PATH})
 
-add_subdirectory(${PROJECT_SOURCE_DIR}/Demo)
+add_subdirectory(${PROJECT_SOURCE_DIR}/MString)
 
 include_directories(${HEAD_PATH})
 
@@ -21,7 +21,7 @@ add_executable(${PROJECT_NAME} ${SRC})
 
 target_link_libraries(
     ${PROJECT_NAME}
-    PUBLIC demo
+    PUBLIC mstring
     )
 
 set(CMAKE_BUILD_TYPE "Debug")

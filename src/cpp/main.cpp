@@ -3,4 +3,5 @@
 int main()
 {
     demo();
+    return 0;
 }

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(demo)
+project(mstring)
 
 set(LIBRARY_OUTPUT_PATH ${LIB_PATH})
 include_directories(${HEAD_PATH})
