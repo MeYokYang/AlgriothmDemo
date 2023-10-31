@@ -1,1 +1,0 @@
-/bin/c++   -O0 -Wall -g -ggdb   CMakeFiles/AlgorithmCPP.dir/main.cpp.o  -o /home/meyok/project/AlgorithmDemo/bin/cpp/AlgorithmCPP  -L/home/meyok/project/AlgorithmDemo/src/cpp/lib -Wl,-rpath,/home/meyok/project/AlgorithmDemo/src/cpp/lib /home/meyok/project/AlgorithmDemo/src/cpp/lib/libmstring.so 

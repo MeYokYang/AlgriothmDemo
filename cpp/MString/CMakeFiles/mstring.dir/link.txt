@@ -1,0 +1,1 @@
+/bin/c++ -fPIC   -shared -Wl,-soname,libmstring.so -o ../lib/libmstring.so CMakeFiles/mstring.dir/Match/string_match.cpp.o CMakeFiles/mstring.dir/demo.cpp.o 
